@@ -1,0 +1,20 @@
+{
+    "name": "tsrdicebot",
+    "version": "1.0.0",
+    "description": "A bot that rolls dice and turns it into damage",
+    "main": "bot.js",
+    "scripts": {
+      "test": "node bot.js",
+      "start": "node bot.js"
+    },
+    "author": "Felipe Lopes - Stillnotamod",
+    "license": "MIT",
+    "dependencies": {
+      "discord.js": "^11.4.2",
+      "quick.db": "^6.3.2",
+      "lowdb": "^1.0.0"
+    },
+    "engines": {
+      "node": "11.x"
+    }
+  }
